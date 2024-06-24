@@ -14,10 +14,6 @@ body {
   color: #848484;
 }
 
-body.grid {
-  background-image: url(../images/grid.png);
-}
-
 h1 {
   font-size: 41px;
   line-height: 50px;
@@ -70,8 +66,8 @@ a:visited:hover {
 }
 .img {
   background: var(--image) center center;
-  width: 52%;
-  height: 52%;
+  width: 84%;
+  height: 84%;
   background-size: cover;
   transition: all 400ms;
   cursor: pointer;
@@ -300,9 +296,6 @@ a:visited:hover {
 /* @end */
 
 /* @group small */
-
-body.small {
-}
 
 body.small #header ul {
   width: 750px;
